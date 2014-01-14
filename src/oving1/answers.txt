@@ -1,0 +1,9 @@
+Q: In GUI programming, we distinguish between lexical, syntactical and semantical 
+events. What kind of mechanisms did you use to handle lexical and syntactical 
+events in your implementation?
+
+A: I let the Swing framework handle lexical events and translate them into syntactical events, which I could then handle with event handlers in my code.
+
+Q: What is the advantage of syntactical events compared to lexical events?
+
+A: We are able to write handlers for a syntactical event that engulfes several different lexical events. This increases code reuse.
