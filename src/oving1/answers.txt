@@ -6,4 +6,9 @@ A: I let the Swing framework handle lexical events and translate them into synta
 
 Q: What is the advantage of syntactical events compared to lexical events?
 
-A: We are able to write handlers for a syntactical event that engulfes several different lexical events. This increases code reuse.
+A: We are able to write handlers for a syntactical event that engulfes several different lexical events. This increases code reuse. Writing code to handle lexical events would also be very tedious to do for every single application.
+
+Q: Concerning the lexical events you answered for the first question above, could 
+you have handled syntactical event instead of lexical events?
+
+A: Yes, but it would be unfeasible.
